@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1388e6f843.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="scrollToTop-btn">
+        <i class="fa-solid fa-angles-up"></i>
+        <!-- <i class="fas fa-angle-up"></i> -->
+    </div>
+
+    <header>
+        <a href="#" class="brend">encryption</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a class="nav-a" href="#main">Home</a>
+            <a class="nav-a" href="#preview">About</a>
+            <a class="nav-a" href="#programing">Encryption</a>
+            <a class="nav-a" href="#de-programing">Decryption</a>
+            <a class="nav-a" href="#contact">Contact</a>
+        </div>
+    </header>
+
+        <!-- end navbar -->
+
+        <section id="main" class="main">
+            <div class="content">
+                <h2>Hello  <br> <span>this page will help you to encrypt texts in different ways</span></h2>
+            </div>
+            <div class="animated-text">
+                <h3>SEZAR</h3>
+                <h3>VERNAM</h3>
+                <h3>VJINER</h3>
+                
+            </div>
+            <!-- <a href="#" class="btn">Sea my work</a> -->
+            <div class="media-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </section>
+ 
+        <!-- end section main -->
+        <div class="preview" id="preview">
+            <div class="bgc_blue"></div>
+            <div class="container">
+              <div class="tabcontainer">
+                <div class="tabheader">
+                  <h3>Category Of encryption</h3>
+                  <div class="tabheader__items">
+                    <div class="tabheader__item tabheader__item_active">SEZAR</div>
+                    <div class="tabheader__item">VERNAM</div>
+                    <div class="tabheader__item">VIJINER</div>
+                    <!-- <div class="tabheader__item">VJINER</div> -->
+                    <!-- <div class="tabheader__item">Fantastic</div> -->
+                  </div>
+                </div>
+                <!-- 1 -->
+                <div class="tabcontent">
+                  <img src="img/4rasm.jpg" alt="drama" />
+                  <div class="tabcontent__descr">
+                    Caesar ciphri (lot. Notae Caesarianae), shuningdek, o'zgaruvchan 
+                    ciphr yoki Caesar kodi deb ataladigan bir almashtirish ciphri turi, 
+                    bu erda ochiq matnda har bir belgi, o'z alifbosidagi bir nechta 
+                    o'rnadan chap yoki o'ngga bir qadamda joylashgan belgisi bilan 
+                    almashtiriladi masalan, 3 qadamda o'ngga surilgan ciphrda, A dan 
+                    B ga, B dan D ga o'tiladi va hokazo. Ciphr, Rima imperatorlari Gaiy 
+                    Yuliy Tsezari tomonidan uning vazifadorlariga sirli muloqot uchun 
+                    ishlatilganligi sababli Tsezar kodi sifatida nomlangan. Tsezar kodi 
+                    tomonidan bajariladigan almashtirish qadamini o'z ichiga olgan 
+                    usullar, masalan, Vizhener ciphri, qo'shimcha qismlar sifatida 
+                    qo'llaniladi va hali ham ROT13 tizimida zamonaviy ilovalarida 
+                    qo'llaniladi. Tsezar kodi, monoalfavit ciphrlar kabi, oson sarflanadi 
+                    va amaliyotda ancha ma'nosizdir. Biroq, u eng oddiy va eng mashhur 
+                    shifrlash usullaridan biri sifatida hisoblanadi. <br>
+                    <img src="img/1.png" alt="Sezar shifrlash algoritmi" style="width: auto; height:auto;">
+                  </div>
+                </div>
+      
+                <!-- 2 -->
+                <div class="tabcontent">
+                  <img src="img/vernam.jpg" alt="comedy" />
+                  <div class="tabcontent__descr" style="color: aliceblue;">
+                    Kriptosistema telegramma xabarlarni shifrlash uchun taklif qilindi, ular 
+                    binar matnlardan iborat bo'lib, bu matnda ochiq matn Bodo kodi (besh xonali 
+                    "impulslar kombinatsiyalari" ko'rinishida) shaklida ifodalangan edi. Ushbu 
+                    koddagi, misol uchun, "A" harfi (1 1 0 0 0) ko'rinishida edi. Bu koddagi, 
+                    masalan, "1" raqamiga joylashgan joy, "0" raqamiga esa yo'qotishni 
+                    ifodalaydigan joy bo'lishi mumkin edi. Maxfiy kalitning o'zi shunchaki shu 
+                    alifboning xaosli harflar to'plamini ifodalash kerak edi. <br>
+                    Shifrlangan matn ochiq matn bilan "xor" amali orqali birlashtiriladi, bu 
+                    amalda maxfiy kalitni bilan. Masalan, kalit (1 1 1 0 1) bilan "A" harfini 
+                    (1 1 0 0 0) qo'llab-quvvatlashda shifrlangan xabar (0 0 1 0 1) hosil qilinadi:
+                    (1 1 0 0 0) ⊕ (1 1 1 0 1) = (0 0 1 0 1). Qabul qilingan xabarning kaliti (1 1 
+                    1 0 1) bo'lganini bilib, boshlang'ich xabarni shu o'zgartirilgan amali orqali 
+                    olish oson: (0 0 1 0 1) ⊕ (1 1 1 0 1) = (1 1 0 0 0). Mutlaq kriptografiya 
+                    bo'yicha qatiy mustahkamlik uchun kalitning uchta kritik muhim xususiyati 
+                    bo'lishi kerak. <br>
+                    Hamda, "Vername" modul m bo'yicha nomlangan shifr ham yaxshi bilinadi, bu erda 
+                    ochiq matn, shifrlangan matn va kalitning belgilari Zm qo'llanma ichidagi 
+                    qiymatlar bo'lishi mumkin. Shifr, aslida, m=2 uchun bo'lgan boshlang'ich 
+                    Vername shifrining umumiylashtirilgan versiyasidir.
+                    <br>
+                    Masalan, m=26 (A=0, B=1,..., Z=25) bo'yicha Vername shifri bilan kodlash: <br>
+                    <img src="img/encryption vernam.png" alt="Vernam shifrlash" class="vernam" style="width:auto; height: auto;">
+                  </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="tabcontent">
+                    <img src="img/Vijener.jpg" alt="comedy" />
+                    <div class="tabcontent__descr" style="color: lightcyan;">
+                        Tsеzar shifrida har bir alifbo harfi bir nechta pozitsiyaga o'zgarmoqda; masalan, 
+                        Tsеzar shifrida +3 o'zgarmoq bilan, A dan B ga, B dan E ga o'giriladi va hokazo. 
+                        Vizhener shifri bir nechta Tsеzar shifrlari ketma-ketligidan iborat. Shifrlash 
+                        uchun "tabula recta" yoki Vizhener kvadrati deb ataladigan alifbo jadvali 
+                        ishlatilishi mumkin. Lotin alifbosiga tegishli bo'lsa, Vizhener jadvali har biri 
+                        26 belgili qatorlardan iborat bo'ladi, va har bir keyingi qator bir nechta 
+                        pozitsiyaga o'zgargan bo'ladi. Shunday qilib, jadvalda 26 ta turli Tsеzar shifri 
+                        hosil bo'ladi. Har bir shifrlash bosqichida kalit so'z belgisiga bog'liq turli 
+                        alifbotlardan foydalaniladi. Masalan, asosiy matn quyidagi ko'rinishda bo'lsa: <br>
+                        ATTACKATDAWN <br>
+                        Xabar jo'natuvchisi matnni yuborish uchun kalit so'zni ("LEMON") dengizlangan 
+                        ravishda yozadi, keyin ularni sinchik sinab ko'rish jarayonida sinab ko'radigan 
+                        vaqtgacha uzaytiradi, kuniga boshlab orqaga qaytib keladi, toki undan so'ng uning 
+                        uzunligi boshlang'ich matn uzunligiga teng bo'lmasa. <br>
+                        LEMONLEMONLE <br>
+                        Birinchi harf asosiy matnning («A») belgisi L ketma-ketligi bilan shifrlanadi, 
+                        bu esa kalitning birinchi belgisi bo'ladi. Shifrlangan matnning birinchi belgisi 
+                        («L») Vizhener jadvalidagi L qatori va A ustunining kesishma nuqtasida joylashadi. 
+                        Ushbu usulni ikkinchi belgining matn uchun ham qo'llaydigan emas, balki ikkinchi 
+                        belgining shifrlangan matndagi birinchi belgisini olish uchun ham qo'llaniladi; 
+                        ya'ni ikkinchi belgining shifrlangan matning ikkinchi belgisi («X») T ustuniga E 
+                        qatorining kesishma nuqtasida joylashadi. Qolgan asosiy matnning qismi ham shunday 
+                        bir usul bilan shifrlanadi. 
+                        <img src="img/encryption vijener.png" alt="Vijener shifrlash" style="width:auto; height: auto;">
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <!-- end preiw -->
+      <div class="programing" id="programing">
+        <div class="title"><h3 class="section-title">Programing for encryption</h3></div>
+        <div class="textarea">
+            <div class="queencrypt">
+                <p>Pasga shifrlamoqchi bo'gan matningizni kiriting</p>
+
+                <form >
+                    <textarea class="ochiq-text" name="message" rows="9" cols="40"></textarea>
+                </form><br>
+                <span class="box-key">
+                    <p>Kalitni kiriting</p>
+                    <input class="key" type="text">
+                </span>
+                
+            </div>
+            <div class="ansencrypt">
+                <!-- <p class="enctexet"></p> -->
+                <textarea class="enctexet" name="message" rows="12" cols="40"></textarea>
+            </div>
+        </div>
+        <div class="btn-enycrpt">
+            <div class="btnturi">
+                <select class="mathvalues" name="pets" id="pet-select">
+                    <option class="values" value="sezer">Sezer</option>
+                    <option class="values" value="vernam">Vernam</option>
+                    <option class="values" value="vijiner">Vijiner</option>
+                </select> <br>
+                <button class="btngo">
+                    GO
+                </button>
+                <!-- <div class="btn-en">
+                    <button class="btngo">
+                        GO
+                    </button>
+                </div> -->
+                
+            </div>
+        </div>
+        <table border="solid black" id="ascii"></table>
+    </div>
+
+    <!-- dencryption -->
+
+    <div class="de-programing" id="de-programing">
+        <div class="title"><h3 class="section-title">Programing for decryption</h3></div>
+        <div class="de-textarea">
+            <div class="de-queencrypt">
+                <p>Pasga deshifrlamoqchi bo'gan matningizni kiriting</p>
+
+                <form >
+                    <textarea class="de-ochiq-text" name="message" rows="9" cols="40"></textarea>
+                </form><br>
+                <span class="de-box-key">
+                    <p>Kalitni kiriting</p>
+                    <input class="de-key" type="text">
+                </span>
+                
+            </div>
+            <div class="de-ansencrypt">
+                <!-- <p class="de-enctexet"></p> -->
+                <textarea class="de-enctexet" name="message" rows="12" cols="40"></textarea>
+            </div>
+        </div>
+        <div class="de-btn-enycrpt">
+            <div class="de-btnturi">
+                <select class="de-mathvalues" name="pets" id="pet-select">
+                    <option class="de-values" value="sezer">Sezer</option>
+                    <option class="de-values" value="vernam">Vernam</option>
+                    <option class="values" value="vijiner">Vijiner</option>
+                </select> <br>
+                <button class="de-btngo">
+                    GO
+                </button>
+                <!-- <div class="btn-en">
+                    <button class="btngo">
+                        GO
+                    </button>
+                </div> -->
+                
+            </div>
+        </div>
+        <table border="solid black" id="ascii"></table>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <footer id="contact">
+        <div class="social-links">
+            <a href="https://www.facebook.com/muhammadjon.dadajanov.7?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/___1.muhammad?igshid=MzRlODBiNWFlZA==  "><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/+zK865olSWNBkY2Iy"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+
+    <!-- <label for="pet-select">Shifrlash turini tanlang</label>
+    <select name="pets" id="pet-select">
+        <option value="sezer">Sezer</option>
+        <option value="matrix">Matritsa</option>
+    </select> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
