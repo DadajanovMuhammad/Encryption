@@ -450,6 +450,22 @@ section{
     justify-content: center;
     /* align-items: center; */
 }
+.queencrypt form{
+  width: 100%;
+}
+.ochiq-text{
+  border: 2px solid blue;
+  /* background: white; */
+  border-radius: 10px;
+  width: 75%;
+  /* scroll-behavior: smooth; */
+  height: 250px;
+  color: black;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
 .textarea .ansencrypt{
     /* border: 1px solid red; */
     width: 50%;
@@ -460,10 +476,10 @@ section{
 }
 .enctexet{
   border: 2px solid green;
-  background: white;
+  /* background: white; */
   border-radius: 10px;
   width: 75%;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   height: 250px;
   color: red;
   flex-wrap: wrap;
@@ -471,12 +487,7 @@ section{
   align-items: center;
   margin: 10px;
 }
-.ochiq-text{
-  background-color: white;
-  border: 2px solid blue;
-  border-radius: 10px;
-  color: black;
-}
+
 .key{
   background: #000;
   color: #fff;
@@ -569,6 +580,22 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   
+}
+.de-queencrypt form{
+  width: 100%;
+}
+.de-ochiq-text{
+  border: 2px solid darkviolet;
+  /* background: white; */
+  border-radius: 10px;
+  width: 75%;
+  /* scroll-behavior: smooth; */
+  height: 250px;
+  color: red;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 .de-enctexet{
 border: 2px solid coral;
