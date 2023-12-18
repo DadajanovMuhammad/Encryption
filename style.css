@@ -480,7 +480,7 @@ section{
   border-radius: 10px;
   width: 75%;
   /* scroll-behavior: smooth; */
-  height: 250px;
+  height: 270px;
   color: red;
   flex-wrap: wrap;
   justify-content: center;
@@ -603,7 +603,7 @@ background: white;
 border-radius: 10px;
 width: 75%;
 scroll-behavior: smooth;
-height: 250px;
+height: 270px;
 color: darkgreen;
 flex-wrap: wrap;
 justify-content: center;
