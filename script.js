@@ -11,7 +11,8 @@ window.addEventListener('DOMContentLoaded',()=>{
     debtn=document.querySelector('.de-btngo'),
     detext=document.querySelector('.de-enctexet'),
     deochiqtext=document.querySelector('.de-ochiq-text'),
-    dekey=document.querySelector('.de-key')
+    dekey=document.querySelector('.de-key'),
+    ascii=document.getElementById("ascii")
 
     
     let alphabet=['A','B','C','D','E','F','G','H','I','J', 'K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','`','_','.',',']
@@ -57,7 +58,7 @@ window.addEventListener('DOMContentLoaded',()=>{
             let t = makeTable();
             document.getElementById("ascii").innerHTML = "";
             for (let i = 0; i < t.length; i++) {
-                document.getElementById("ascii").innerHTML = document.getElementById("ascii").innerHTML+
+                ascii.innerHTML = document.getElementById("ascii").innerHTML+
                 "<tr><td>"+intsToCharList(t[i]).join("</td><td>")+"</td></tr>";
             }
     }
@@ -85,6 +86,7 @@ window.addEventListener('DOMContentLoaded',()=>{
                     }
                 
                 text.value=" "
+                ascii.innerHTML =" "
                 text.value=`${shifrlangan}`
                }
 
@@ -109,7 +111,7 @@ window.addEventListener('DOMContentLoaded',()=>{
                         }
                         shifrlangan+=alphabet[temp^temp2];
                     }
-    
+                ascii.innerHTML =" "
                 text.value=' '
                 text.value=`${shifrlangan}`
                }
